@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Talent AI Hunting — AI-native recruitment agency | 5% success-fee",
+    "description": "Hire tech talent without the bad-hire risk. Behavioral testing + structured scorecard funnel + live AI video validation. 5% success-fee on year-1 salary, no retainer. EU AI Act compliant."
+  },
+
+  "hero": {
+    "eyebrow": "EU AI Act compliant · Hedera Foundation backed",
+    "headlinePre": "Hire tech talent",
+    "headlineHighlight": "without the bad-hire risk",
+    "headlineSuffix": ".",
+    "subheadlinePre": "AI-native recruitment agency. Every candidate goes through a structured behavioral test and a weighted scorecard funnel that drastically reduces the risk of a bad hire.",
+    "subheadlineBold": "5% success-fee on placements only.",
+    "subheadlineSuffix": "No retainer. No exclusivity. 90-day replacement guarantee.",
+    "ctaPrimary": "Book a 20-min intake call",
+    "ctaSecondary": "See how it works",
+    "stats": [
+      { "num": "1000+", "label": "candidates behaviorally tested" },
+      { "num": "5%",    "label": "success-fee · no retainer ever" },
+      { "num": "90d",   "label": "replacement guarantee on every placement" }
+    ]
+  },
+
+  "problem": {
+    "eyebrow": "The cost of getting it wrong",
+    "title": "Technical hiring is broken.",
+    "lead": "The traditional recruitment playbook was written before remote-first, before AI résumés, before live identity verification became possible. These two problems are what we hear from founders every week.",
+    "items": [
+      {
+        "icon": "clock",
+        "stat": "42+",
+        "title": "days to fill a senior tech role",
+        "desc": "Industry baseline. Each open role costs ~$500/day in lost productivity. Two months = $30K vanished before the candidate even signs."
+      },
+      {
+        "icon": "cost",
+        "stat": "20-30%",
+        "title": "success-fee from manual agencies",
+        "desc": "Plus setup fee upfront. Plus interview fees. Plus exclusivity clauses. On an €80K hire that stacks up to €18-25K, with zero AI verification."
+      }
+    ]
+  },
+
+  "howItWorks": {
+    "eyebrow": "Our 5-step plan",
+    "title": "A structured funnel that de-risks every hire.",
+    "lead": "A bad hire costs 25–40K. Our funnel replaces guesswork with behavioral tests and a weighted scorecard you co-design at intake. No black box, no opaque scoring.",
+    "steps": [
+      {
+        "title": "Intake & scorecard",
+        "desc": "20-min call. We build a structured scorecard with weighted skills, must-haves, deal-breakers. Validated by your hiring manager before any sourcing.",
+        "time": "Day 0"
+      },
+      {
+        "title": "AI-powered sourcing",
+        "desc": "Crawl4AI across LinkedIn, GitHub, specialist communities. Email verification for clean outbound. ~80–200 sourced per role.",
+        "time": "Day 1–4"
+      },
+      {
+        "title": "AI video validation",
+        "desc": "Live session with 3 sub-agents: Yuka (technical), Sinda (soft skills), Olga (HR). Identity check, skill probing, recorded with audit trail.",
+        "time": "Day 3–7"
+      },
+      {
+        "title": "Validated shortlist",
+        "desc": "3–5 candidates delivered with scorecard, validation footage, salary benchmarks, references. You meet only people who passed our gate.",
+        "time": "Day 7–10"
+      },
+      {
+        "title": "Hand-off & 5% on hire",
+        "desc": "You handle final-round interviews. We support offer negotiation and onboarding. 5% invoiced after start date. 90-day guarantee.",
+        "time": "Day 14–28"
+      }
+    ]
+  },
+
+  "compare": {
+    "eyebrow": "Where we sit in the market",
+    "title": "Three differences that matter.",
+    "colUs": "Talent AI Hunting",
+    "colThem": "Traditional agency",
+    "rows": [
+      {
+        "feature": "Pricing",
+        "us":    "5% on year-1 salary",
+        "them":  "20–30% + setup + hidden fees"
+      },
+      {
+        "feature": "Candidate validation",
+        "us":    "Live AI video · 1000+ validated",
+        "them":  "CV review and phone screen"
+      },
+      {
+        "feature": "Risk on you",
+        "us":    "Pay only after start · 90-day refund",
+        "them":  "Setup upfront · fees regardless"
+      }
+    ]
+  },
+
+  "socialProof": {
+    "eyebrow": "Trust signals",
+    "title": "Backed by Hedera. Built for the next 18–24 months.",
+    "logos": [
+      "Hedera Foundation Grant",
+      "AWS Bedrock",
+      "Kas Ventures",
+      "Dar Blockchain",
+      "Lightency",
+      "Armature",
+      "TMC Sénégal"
+    ],
+    "testimonial": {
+      "text": "We cut time-to-hire from 6 weeks to 8 days. The validation footage made it easy to defend every shortlist to leadership.",
+      "authorInitials": "LT",
+      "authorName": "Lightency · Talent lead",
+      "authorRole": "Renewable energy protocol · Senior dev hire"
+    }
+  },
+
+  "pricing": {
+    "eyebrow": "The offer",
+    "title": "One fee. After they start. Refund if they don't last 90 days.",
+    "offerBadge": "Our offer",
+    "offerHeadline": "5% success-fee on placement",
+    "offerPrice": "5%",
+    "offerSubtext": "of the placed candidate annual gross salary · invoiced 30 days after start date · refunded in full if they leave within 90 days",
+    "inclusions": [
+      "AI video validation with full audit footage",
+      "90-day replacement guarantee",
+      "Zero retainer · zero setup fee · zero exclusivity · zero hidden charges"
+    ],
+    "cta": "Start your first search"
+  },
+
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Honest answers to questions founders actually ask.",
+    "items": [
+      {
+        "question": "How is Talent AI Hunting different from a traditional recruitment agency?",
+        "answer": "We charge 5% success-fee on year-1 salary, paid only after the candidate starts. No retainer, no setup fee, no exclusivity. Every candidate is screened by our live AI video validation. Manual agencies typically charge 20–30% plus setup and hidden charges — €18–25K on an €80K hire for the same output."
+      },
+      {
+        "question": "What is AI video validation and why does it matter?",
+        "answer": "It's a live verification system combining identity check with real-time skill testing during a video interview. Three AI sub-agents probe the candidate, record the session, and produce an auditable score — detecting fake CVs and identity fraud that phone screens cannot."
+      },
+      {
+        "question": "Are you EU AI Act compliant?",
+        "answer": "Yes, by design not retrofit. Recruitment is high-risk under Annex III. Our platform covers all four mandatory pillars: human-in-the-loop scoring (Art. 14), bias monitoring with audit trail (Art. 15), candidate transparency (Art. 13), GDPR-native data handling. Enforcement begins August 2026 — we're 18–24 months ahead."
+      },
+      {
+        "question": "Who are your typical clients?",
+        "answer": "Tech companies in EU, UK, US, or Canada hiring senior engineers, AI/ML operators, CTOs, technical leads where a bad hire is expensive. We cover most stacks and verticals. We do not work below €60K salary, and do not take staffing-agency assignments."
+      },
+      {
+        "question": "What is the typical time-to-hire?",
+        "answer": "Target: 18–28 days from intake to signed offer, vs 42+ days industry baseline. Pilot with Lightency closed in 18 days. AI sourcing on day 1, validated shortlist of 3–5 candidates within 7 days."
+      },
+      {
+        "question": "Do you take retainers or only success fees?",
+        "answer": "Success fee only. 5% of placed candidate year-1 gross salary, invoiced 30 days after start. No retainer. No upfront. No exclusivity. Full refund if they leave within 90 days. If it works, you pay; if it does not, you do not."
+      },
+      {
+        "question": "Are you live with paying clients?",
+        "answer": "We launched the agency service in May 2026 and are running pilot placements. First confirmed placement with Lightency closed in 18 days. Our platform stack is already used by six organizations including Kas Ventures, Dar Blockchain, and TMC Senegal."
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Stop paying for retainers. Start paying for results.",
+    "subtitle": "20-minute intake call. We map your hiring need to our 5-step process. No deck. No pitch. We either fit or we don't — and we'll tell you so.",
+    "primaryBtn": "Book a 20-min intake call →",
+    "secondaryBtn": "Email the founders"
+  },
+
+  "footer": {
+    "tagline": "AI-native recruitment agency for tech hiring.",
+    "taglineDetail": "Behavioral testing + structured scorecard + live AI video validation.",
+    "taglineLocation": "Headquartered in Vilnius, Lithuania.",
+    "taglineMarkets": "Placing talent across EU · UK · US · Canada · Remote",
+    "complianceBadge": "EU AI Act ready",
+    "navTitle": "Navigate",
+    "navLinks": [
+      { "label": "How it works", "href": "#how" },
+      { "label": "Pricing",      "href": "#pricing" },
+      { "label": "FAQ",          "href": "#faq" }
+    ],
+    "contactTitle": "Contact & legal",
+    "contactLinks": [
+      { "label": "Book an intake call",      "href": "#cta",                                           "external": false },
+      { "label": "LinkedIn",                  "href": "https://www.linkedin.com/company/talent-ai-labs", "external": true  },
+      { "label": "contact@talentai.bid",      "href": "mailto:contact@talentai.bid",                    "external": false },
+      { "label": "Legal · GDPR",              "href": "/legal",                                         "external": false },
+      { "label": "Imprint · UAB 307572423",   "href": "/imprint",                                       "external": false }
+    ],
+    "copyright": "© 2026 Talent AI Labs UAB · Vilnius, Lithuania · All rights reserved",
+    "stack": "Backed by Hedera Foundation · Stack: AWS Bedrock · Crawl4AI"
+  }
+}

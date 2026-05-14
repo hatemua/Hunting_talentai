@@ -1,0 +1,26 @@
+# robots.txt for Talent AI Hunting landing
+# Updated 2026-05-11
+
+User-agent: *
+Allow: /
+Disallow: /legal
+Disallow: /imprint
+
+# Specific bots for LLM indexing (allow)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemap reference
+Sitemap: https://Hunting.talentai.bid/sitemap.xml

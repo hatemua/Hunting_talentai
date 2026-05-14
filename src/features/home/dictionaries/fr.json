@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Talent AI Hunting — Agence de recrutement IA-native | 5 % au succès",
+    "description": "Recrutez vos profils tech sans subir le risque d'un mauvais recrutement. Évaluation comportementale + grille de scoring + validation vidéo IA en direct. 5 % au succès sur le salaire de la première année, sans avance. Conforme EU AI Act."
+  },
+
+  "hero": {
+    "eyebrow": "Conforme EU AI Act · Soutenu par Hedera Foundation",
+    "headlinePre": "Recrutez des talents tech",
+    "headlineHighlight": "sans vous tromper",
+    "headlineSuffix": ".",
+    "subheadlinePre": "Agence de recrutement IA-native. Chaque candidat passe par une évaluation comportementale structurée et une grille de scoring pondérée que vous construisez avec nous. Le risque d'erreur s'effondre.",
+    "subheadlineBold": "Honoraires de 5 % au succès",
+    "subheadlineSuffix": "facturés uniquement à l'arrivée du candidat. Aucune avance, aucune exclusivité. Garantie remplacement de 90 jours.",
+    "ctaPrimary": "Prendre un rendez-vous de cadrage",
+    "ctaSecondary": "Découvrir notre méthode",
+    "stats": [
+      { "num": "1000+", "label": "candidats évalués en entretien comportemental" },
+      { "num": "5%",    "label": "d'honoraires au succès, sans aucune avance" },
+      { "num": "90j",   "label": "de garantie remplacement sur chaque candidat placé" }
+    ]
+  },
+
+  "problem": {
+    "eyebrow": "Ce que coûte une erreur de recrutement",
+    "title": "Le recrutement tech est cassé.",
+    "lead": "Les méthodes classiques ont été pensées avant le travail à distance généralisé, avant la génération de CV par IA, avant que la vérification d'identité en direct ne devienne possible. Ces deux problèmes, nous les entendons chaque semaine de la part des fondateurs.",
+    "items": [
+      {
+        "icon": "clock",
+        "stat": "42+",
+        "title": "jours en moyenne pour pourvoir un poste tech senior",
+        "desc": "Moyenne sectorielle. Chaque poste ouvert coûte environ 500 $ par jour de productivité perdue. Deux mois d'attente, c'est 30 000 $ qui s'évaporent avant la signature."
+      },
+      {
+        "icon": "cost",
+        "stat": "20-30%",
+        "title": "d'honoraires demandés par les cabinets classiques",
+        "desc": "Auxquels s'ajoutent forfait d'ouverture, frais d'entretien et clause d'exclusivité. Sur un recrutement à 80 000 €, la facture grimpe à 18 000–25 000 €."
+      }
+    ]
+  },
+
+  "howItWorks": {
+    "eyebrow": "Notre méthode en 5 étapes",
+    "title": "Un entonnoir structuré qui sécurise chaque recrutement.",
+    "lead": "Un mauvais recrutement coûte entre 25 000 et 40 000 €. Notre processus remplace l'intuition par une évaluation comportementale et une grille pondérée que vous construisez avec nous dès le cadrage. Aucune boîte noire, aucune notation opaque.",
+    "steps": [
+      {
+        "title": "Cadrage et grille d'évaluation",
+        "desc": "Rendez-vous de 20 minutes. Nous construisons une grille d'évaluation structurée validée par votre responsable avant tout sourcing.",
+        "time": "Jour 0"
+      },
+      {
+        "title": "Sourcing par IA",
+        "desc": "Crawl4AI sur LinkedIn, GitHub, communautés spécialisées. Infrastructure de vérification d'emails. Entre 80 et 200 profils par mission.",
+        "time": "Jour 1–4"
+      },
+      {
+        "title": "Validation vidéo par IA",
+        "desc": "Entretien en direct avec trois agents : Yuka (technique), Sinda (comportemental), Olga (RH). Vérification d'identité, enregistrement avec piste d'audit.",
+        "time": "Jour 3–7"
+      },
+      {
+        "title": "Liste courte validée",
+        "desc": "Nous vous remettons 3 à 5 candidats avec grille remplie, enregistrement, fourchettes salariales et références.",
+        "time": "Jour 7–10"
+      },
+      {
+        "title": "Transmission et 5 % à l'embauche",
+        "desc": "Vous menez les entretiens finaux. Nous accompagnons la négociation d'offre et l'arrivée. Les 5 % sont facturés après la date d'entrée.",
+        "time": "Jour 14–28"
+      }
+    ]
+  },
+
+  "compare": {
+    "eyebrow": "Notre position sur le marché",
+    "title": "Trois différences qui comptent.",
+    "colUs": "Talent AI Hunting",
+    "colThem": "Agence classique",
+    "rows": [
+      {
+        "feature": "Honoraires",
+        "us":    "5 % du salaire de la première année",
+        "them":  "20 à 30 % + ouverture de mission + frais cachés"
+      },
+      {
+        "feature": "Évaluation du candidat",
+        "us":    "Entretien vidéo IA en direct · plus de 1 000 évalués",
+        "them":  "Lecture du CV et entretien téléphonique"
+      },
+      {
+        "feature": "Votre risque financier",
+        "us":    "Vous ne payez qu'à l'arrivée · remboursement à 90 j.",
+        "them":  "Avance à payer · frais dus quoi qu'il arrive"
+      }
+    ]
+  },
+
+  "socialProof": {
+    "eyebrow": "Signaux de confiance",
+    "title": "Adossés à Hedera. Bâtis pour les 18–24 prochains mois.",
+    "logos": [
+      "Hedera Foundation Grant",
+      "AWS Bedrock",
+      "Kas Ventures",
+      "Dar Blockchain",
+      "Lightency",
+      "Armature",
+      "TMC Sénégal"
+    ],
+    "testimonial": {
+      "text": "Nous avons ramené notre délai de recrutement de six semaines à huit jours. L'enregistrement de validation a permis de défendre chaque liste courte devant la direction, sans discussion.",
+      "authorInitials": "LT",
+      "authorName": "Lightency · Talent lead",
+      "authorRole": "Protocole dans l'énergie renouvelable · recrutement d'un développeur senior"
+    }
+  },
+
+  "pricing": {
+    "eyebrow": "L'offre",
+    "title": "Un seul honoraire. Payé à l'embauche. Remboursé sous 90 jours.",
+    "offerBadge": "Notre offre",
+    "offerHeadline": "5 % au succès, sur chaque placement",
+    "offerPrice": "5%",
+    "offerSubtext": "du salaire brut annuel, facturé 30 jours après son arrivée et remboursé intégralement s'il part avant 90 jours.",
+    "inclusions": [
+      "Validation vidéo par IA avec enregistrement et piste d'audit complète",
+      "Garantie remplacement sur 90 jours",
+      "Aucune avance · aucun forfait · aucune exclusivité · aucun frais caché"
+    ],
+    "cta": "Lancer une première recherche"
+  },
+
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Les questions que les fondateurs nous posent vraiment.",
+    "items": [
+      {
+        "question": "Quelle est la différence avec une agence de recrutement classique ?",
+        "answer": "Nos honoraires sont de 5 % du salaire de la première année, facturés uniquement après l'arrivée. Aucune avance, aucun forfait, aucune exclusivité. Les cabinets classiques facturent entre 20 et 30 %, soit 18 à 25 000 € sur un recrutement à 80 000 €."
+      },
+      {
+        "question": "Qu'est-ce que la validation vidéo par IA, et pourquoi est-ce déterminant ?",
+        "answer": "C'est un système de vérification en direct qui combine contrôle d'identité et mise à l'épreuve des compétences. Trois agents spécialisés interrogent le candidat, enregistrent la session et produisent un score auditable."
+      },
+      {
+        "question": "Êtes-vous conformes à l'EU AI Act ?",
+        "answer": "Oui, par conception et non par adaptation tardive. L'Annexe III classe le recrutement parmi les usages à haut risque. Notre plateforme couvre les quatre piliers obligatoires. L'application démarre en août 2026. Nous avons 18 à 24 mois d'avance."
+      },
+      {
+        "question": "À qui s'adresse cette agence ?",
+        "answer": "Les entreprises tech dont le siège est en Europe, au Royaume-Uni, aux États-Unis ou au Canada qui recrutent des ingénieurs seniors, des opérateurs IA, des CTO ou des leads techniques. Nous n'intervenons pas en dessous de 60 000 € de salaire annuel."
+      },
+      {
+        "question": "Quel est le délai moyen pour réaliser un recrutement ?",
+        "answer": "Notre objectif est 18 à 28 jours, contre 42 jours et plus dans la moyenne sectorielle. Notre placement pilote chez Lightency a abouti en 18 jours."
+      },
+      {
+        "question": "Acceptez-vous des honoraires d'avance, ou uniquement au succès ?",
+        "answer": "Uniquement au succès. 5 % du salaire brut de la première année, facturés 30 jours après son arrivée. Aucune avance, aucune exclusivité. Remboursement intégral si le candidat part dans les 90 jours."
+      },
+      {
+        "question": "Avez-vous déjà des clients payants ?",
+        "answer": "Le service a été lancé en mai 2026. Notre premier placement confirmé, chez Lightency, s'est bouclé en 18 jours. Le moteur sous-jacent est déjà utilisé par six organisations dont Kas Ventures et Dar Blockchain."
+      }
+    ]
+  },
+
+  "cta": {
+    "title": "Arrêtez les retainers. Payez pour des résultats.",
+    "subtitle": "Un rendez-vous de cadrage de 20 minutes. Nous mettons votre besoin en regard de notre processus. Pas de présentation commerciale. Si nous ne sommes pas le bon partenaire, nous vous le disons tout de suite.",
+    "primaryBtn": "Prendre un rendez-vous de cadrage →",
+    "secondaryBtn": "Écrire aux fondateurs"
+  },
+
+  "footer": {
+    "tagline": "Agence de recrutement IA-native spécialisée tech.",
+    "taglineDetail": "Évaluation comportementale + grille de scoring + validation vidéo IA en direct.",
+    "taglineLocation": "Siège à Vilnius, Lituanie.",
+    "taglineMarkets": "Talents placés en UE · UK · US · Canada · Remote",
+    "complianceBadge": "Conforme EU AI Act",
+    "navTitle": "Naviguer",
+    "navLinks": [
+      { "label": "Notre méthode", "href": "#how" },
+      { "label": "Tarif",         "href": "#pricing" },
+      { "label": "FAQ",           "href": "#faq" }
+    ],
+    "contactTitle": "Contact & mentions",
+    "contactLinks": [
+      { "label": "Prendre rendez-vous",        "href": "#cta",                                           "external": false },
+      { "label": "LinkedIn",                    "href": "https://www.linkedin.com/company/talent-ai-labs", "external": true  },
+      { "label": "contact@talentai.bid",        "href": "mailto:contact@talentai.bid",                    "external": false },
+      { "label": "Mentions légales · RGPD",     "href": "/legal",                                         "external": false },
+      { "label": "Imprint · UAB 307572423",     "href": "/imprint",                                       "external": false }
+    ],
+    "copyright": "© 2026 Talent AI Labs UAB · Vilnius, Lituanie · Tous droits réservés",
+    "stack": "Soutenus par la Hedera Foundation · Stack : AWS Bedrock et Crawl4AI"
+  }
+}
