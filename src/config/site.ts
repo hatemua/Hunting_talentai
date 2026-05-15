@@ -1,4 +1,4 @@
-const _siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://Hunting.talentai.bid'
+const _siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://hunting.talentai.bid'
 
 // ── Site URLs ──────────────────────────────────────────
 export const siteHome     = `${_siteUrl}/`

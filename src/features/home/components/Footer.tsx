@@ -3,7 +3,7 @@
 import Link            from 'next/link'
 import Image           from 'next/image'
 import { usePathname } from 'next/navigation'
-import { calendlyUrl } from '@/config/site'
+import { calendlyUrl, linkedinUrl, contactEmail, contactEmailHref } from '@/config/site'
 import type { FooterProps } from '@/features/home/types'
 
 export function Footer({ dict }: FooterProps) {
@@ -128,11 +128,12 @@ export function Footer({ dict }: FooterProps) {
             </p>
             <ul className="space-y-2">
               {dict.contactLinks.map((l) => {
-                const isCta   = l.href === '#cta'
-                const href    = isCta ? calendlyUrl : l.href
-                const isLegal = href === '/legal' || href === '/imprint'
-                const isEmail = href.startsWith('mailto:')
-                const isLI    = href.includes('linkedin')
+                const isCta    = l.href === '#cta'
+                const isLI     = l.href === '#linkedin'
+                const isEmail  = l.href === '#contactEmailHref'
+                const href     = isCta ? calendlyUrl : isLI ? linkedinUrl : isEmail ? contactEmailHref : l.href
+                const label    = l.label === '#contactEmail' ? contactEmail : l.label
+                const isLegal  = href === '/legal' || href === '/imprint'
 
                 const baseColor  = isCta ? '#A78BFA' : isLegal ? 'rgba(255,255,255,0.28)' : 'rgba(255,255,255,0.42)'
                 const hoverColor = isCta ? '#C4B5FD' : isLegal ? 'rgba(196,181,253,0.75)' : '#C4B5FD'
@@ -156,7 +157,7 @@ export function Footer({ dict }: FooterProps) {
                               style={{ background: 'rgba(139,127,240,0.40)' }} />
                       )}
 
-                      {l.label}
+                      {label}
 
                       {l.external && !isLI && (
                         <svg className="w-3 h-3 flex-shrink-0 ml-auto opacity-40" fill="none"

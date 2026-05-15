@@ -4,6 +4,7 @@ import Link               from 'next/link'
 import { useTranslation } from 'react-i18next'
 import type { Dictionary } from '@/i18n/types'
 import type { Block } from '@/features/legal/types'
+import { contactEmail, contactEmailHref, vdaiUrl } from '@/config/site'
 import { LegalNav }        from '@/features/legal/components/LegalNav'
 
 function RenderBlock({ block, idx }: { block: Block; idx: number }) {
@@ -37,11 +38,16 @@ function RenderBlock({ block, idx }: { block: Block; idx: number }) {
        style={{ color: '#4A5568' }}>
       {block.linkLabel
         ? (() => {
-            const [before, after] = block.text.split(block.linkLabel!)
-            return <>{before}<Link href={block.linkHref!}
-              {...(block.linkHref!.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+            const label = block.linkLabel === '#contactEmail' ? contactEmail : block.linkLabel!
+            const href  = block.linkHref  === '#contactEmailHref' ? contactEmailHref
+                        : block.linkHref  === '#vdaiUrl'          ? vdaiUrl
+                        : block.linkHref!
+            const text  = block.text.replace('#contactEmail', label)
+            const [before, after] = text.split(label)
+            return <>{before}<Link href={href}
+              {...(href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
               className="font-medium underline underline-offset-2 transition-colors duration-200"
-              style={{ color: '#6C5CE7' }}>{block.linkLabel}</Link>{after}</>
+              style={{ color: '#6C5CE7' }}>{label}</Link>{after}</>
           })()
         : block.text}
     </p>

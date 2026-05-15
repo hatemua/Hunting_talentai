@@ -4,6 +4,7 @@ import Link               from 'next/link'
 import { useTranslation } from 'react-i18next'
 import type { Dictionary } from '@/i18n/types'
 import type { TableRow, ProseSection } from '@/features/legal/types'
+import { linkedinUrl, linkedinLabel, contactEmail, contactEmailHref, calendlyUrl, registrucentrasUrl } from '@/config/site'
 import { LegalNav }        from '@/features/legal/components/LegalNav'
 
 export default function ImprintPage() {
@@ -71,17 +72,26 @@ export default function ImprintPage() {
                     {row.label}
                   </span>
                   <span className="text-[0.845rem]" style={{ color: '#1E293B' }}>
-                    {'href' in row && row.href ? (
-                      <a href={row.href}
-                         target={row.href.startsWith('http') ? '_blank' : undefined}
-                         rel={row.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                         className="font-medium underline underline-offset-2 transition-colors duration-200"
-                         style={{ color: '#6C5CE7' }}>
-                        {row.value}
-                      </a>
-                    ) : 'linkLabel' in row && row.linkLabel ? (() => {
+                    {'href' in row && row.href ? (() => {
+                      const href  = row.href  === '#linkedin'         ? linkedinUrl
+                                  : row.href  === '#contactEmailHref' ? contactEmailHref
+                                  : row.href  === '#calendlyUrl'      ? calendlyUrl
+                                  : row.href
+                      const value = row.value === '#linkedinLabel'    ? linkedinLabel    : row.value === '#contactEmail'     ? contactEmail     : row.value
+                      return (
+                        <a href={href}
+                           target={href.startsWith('http') ? '_blank' : undefined}
+                           rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                           className="font-medium underline underline-offset-2 transition-colors duration-200"
+                           style={{ color: '#6C5CE7' }}>
+                          {value}
+                        </a>
+                      )
+                    })() : 'linkLabel' in row && row.linkLabel ? (() => {
                       const [before, after] = row.value.split(row.linkLabel!)
-                      return <>{before}<a href={(row as { linkHref: string }).linkHref} target="_blank" rel="noopener noreferrer"
+                      const rawLinkHref = (row as { linkHref: string }).linkHref
+                      const linkHref = rawLinkHref === '#registrucentrasUrl' ? registrucentrasUrl : rawLinkHref
+                      return <>{before}<a href={linkHref} target="_blank" rel="noopener noreferrer"
                                className="font-medium underline underline-offset-2 transition-colors duration-200"
                                style={{ color: '#6C5CE7' }}>{row.linkLabel}</a>{after}</>
                     })() : row.value}
@@ -114,9 +124,12 @@ export default function ImprintPage() {
                 </h3>
                 <p className="text-[0.9rem] leading-[1.80]" style={{ color: '#4A5568' }}>
                   {'linkLabel' in sec && sec.linkLabel ? (() => {
-                    const label = sec.linkLabel as string
-                    const href  = (sec as { linkHref: string }).linkHref
-                    const [before, after] = sec.text.split(label)
+                    const rawLabel = sec.linkLabel as string
+                    const rawHref  = (sec as { linkHref: string }).linkHref
+                    const label = rawLabel === '#contactEmail'    ? contactEmail    : rawLabel
+                    const href  = rawHref  === '#contactEmailHref' ? contactEmailHref : rawHref
+                    const text  = sec.text.replace('#contactEmail', label)
+                    const [before, after] = text.split(label)
                     return <>{before}<Link href={href}
                       {...(href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
                       className="font-medium underline underline-offset-2 transition-colors duration-200"

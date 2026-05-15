@@ -23,4 +23,4 @@ User-agent: CCBot
 Allow: /
 
 # Sitemap reference
-Sitemap: https://Hunting.talentai.bid/sitemap.xml
+Sitemap: https://hunting.talentai.bid/sitemap.xml

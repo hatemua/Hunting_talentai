@@ -82,7 +82,7 @@
             { "bold": "Vous opposer",                                         "text": " à un traitement fondé sur notre intérêt légitime (article 21)." },
             { "bold": "Ne pas faire l'objet d'une décision entièrement automatisée", "text": " (article 22), d'où notre garantie de supervision humaine systématique." }
           ]},
-          { "type": "p", "text": "Pour exercer l'un de ces droits, écrivez-nous à contact@talentai.bid ou via LinkedIn. Nous répondons dans un délai de 30 jours." }
+          { "type": "p", "text": "Pour exercer l'un de ces droits, écrivez-nous à #contactEmail ou via LinkedIn. Nous répondons dans un délai de 30 jours.", "linkLabel": "#contactEmail", "linkHref": "#contactEmailHref" }
         ]
       },
       {
@@ -95,7 +95,7 @@
         "heading": "8. Réclamations",
         "blocks": [
           { "type": "p", "text": "Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de l'autorité de contrôle compétente. Notre autorité chef de file est :" },
-          { "type": "p", "text": "Inspection nationale de protection des données de Lituanie (Valstybinė duomenų apsaugos inspekcija) — vdai.lrv.lt", "linkLabel": "vdai.lrv.lt", "linkHref": "https://vdai.lrv.lt/" },
+          { "type": "p", "text": "Inspection nationale de protection des données de Lituanie (Valstybinė duomenų apsaugos inspekcija) — vdai.lrv.lt", "linkLabel": "vdai.lrv.lt", "linkHref": "#vdaiUrl" },
           { "type": "p", "text": "Les résidents européens peuvent également saisir leur autorité nationale (CNIL en France, BfDI en Allemagne, ICO au Royaume-Uni)." }
         ]
       },
@@ -124,7 +124,7 @@
           { "label": "Forme juridique",         "value": "UAB (Uždaroji akcinė bendrovė), équivalent lituanien de la société à responsabilité limitée" },
           { "label": "Code société (registre)", "value": "307572423" },
           { "label": "Numéro TVA",              "value": "LT307572423" },
-          { "label": "Siège social",            "value": "Vilnius, Lituanie. Le détail de l'immatriculation est disponible auprès du Centre des registres de Lituanie (registrucentras.lt) sous le code 307572423.", "linkLabel": "registrucentras.lt", "linkHref": "https://www.registrucentras.lt/" },
+          { "label": "Siège social",            "value": "Vilnius, Lituanie. Le détail de l'immatriculation est disponible auprès du Centre des registres de Lituanie (registrucentras.lt) sous le code 307572423.", "linkLabel": "registrucentras.lt", "linkHref": "#registrucentrasUrl" },
           { "label": "Date d'immatriculation",  "value": "2025" }
         ]
       },
@@ -138,15 +138,15 @@
       {
         "heading": "Contact",
         "rows": [
-          { "label": "Contact général",     "value": "contact@talentai.bid",                  "href": "mailto:contact@talentai.bid" },
-          { "label": "LinkedIn",            "value": "linkedin.com/company/hunting-talent-ai", "href": "https://www.linkedin.com/company/hunting-talent-ai/" },
-          { "label": "Prendre rendez-vous", "value": "Réserver un appel de 20 min →",          "href": "https://calendly.com/talent__ai/30min" }
+          { "label": "Contact général",     "value": "#contactEmail",                         "href": "#contactEmailHref" },
+          { "label": "LinkedIn",            "value": "#linkedinLabel",                          "href": "#linkedin" },
+          { "label": "Prendre rendez-vous", "value": "Réserver un appel de 20 min →",          "href": "#calendlyUrl" }
         ]
       }
     ],
     "prose": [
       { "heading": "Directeur de la publication",              "text": "La direction de la publication du présent site est assurée par le représentant légal de Talent AI Labs UAB." },
-      { "heading": "Hébergement",                              "text": "Ce site est hébergé sur une infrastructure située dans l'Union européenne et conforme aux exigences du RGPD. Les coordonnées précises du prestataire d'hébergement peuvent être obtenues sur simple demande écrite adressée à contact@talentai.bid.", "linkLabel": "contact@talentai.bid", "linkHref": "mailto:contact@talentai.bid" },
+      { "heading": "Hébergement",                              "text": "Ce site est hébergé sur une infrastructure située dans l'Union européenne et conforme aux exigences du RGPD. Les coordonnées précises du prestataire d'hébergement peuvent être obtenues sur simple demande écrite adressée à #contactEmail.", "linkLabel": "#contactEmail", "linkHref": "#contactEmailHref" },
       { "heading": "Propriété intellectuelle",                 "text": "L'ensemble du contenu de ce site (textes, mise en page, identité visuelle, illustrations et code source) demeure la propriété exclusive de Talent AI Labs UAB, sauf mention contraire. Toute reproduction, redistribution ou exploitation commerciale sans autorisation écrite préalable est strictement prohibée." },
       { "heading": "Droit applicable et juridiction compétente", "text": "Le présent site, ainsi que l'ensemble des services qui y sont attachés, sont soumis au droit lituanien. À défaut de résolution amiable, tout litige relèvera de la compétence exclusive des tribunaux de Vilnius, en Lituanie, sous réserve des règles impératives de protection du consommateur applicables dans un autre État membre de l'Union européenne." },
       { "heading": "Protection des données personnelles",      "text": "Les modalités de collecte et de traitement des données personnelles sont détaillées dans notre page Politique de confidentialité et droits RGPD.", "linkLabel": "Politique de confidentialité et droits RGPD", "linkHref": "/legal" }
