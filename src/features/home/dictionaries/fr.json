@@ -190,7 +190,7 @@
     "contactTitle": "Contact & mentions",
     "contactLinks": [
       { "label": "Prendre rendez-vous",        "href": "#cta",                                           "external": false },
-      { "label": "LinkedIn",                    "href": "https://www.linkedin.com/company/talent-ai-labs", "external": true  },
+      { "label": "LinkedIn",                    "href": "https://www.linkedin.com/company/hunting-talent-ai/", "external": true  },
       { "label": "contact@talentai.bid",        "href": "mailto:contact@talentai.bid",                    "external": false },
       { "label": "Mentions légales · RGPD",     "href": "/legal",                                         "external": false },
       { "label": "Imprint · UAB 307572423",     "href": "/imprint",                                       "external": false }

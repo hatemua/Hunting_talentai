@@ -1,0 +1,155 @@
+{
+  "legal": {
+    "title":      "Politique de confidentialité & droits RGPD",
+    "eyebrow":    "Mentions légales · RGPD",
+    "updated":    "Dernière mise à jour : 11 mai 2026 · Entrée en vigueur immédiate",
+    "crossLabel": "Pour les informations légales sur notre entité, voir",
+    "crossLink":  "les Mentions légales",
+    "sections": [
+      {
+        "heading": "1. Qui sommes-nous",
+        "blocks": [
+          { "type": "p", "text": "Talent AI Labs UAB (ci-après « Talent AI Hunting », « nous ») est une société à responsabilité limitée de droit lituanien, immatriculée sous le code 307572423 et dont le siège se situe à Vilnius, en Lituanie. Notre activité est celle d'une agence de recrutement nativement fondée sur l'intelligence artificielle. Nous plaçons des candidats au sein de l'Union européenne, du Royaume-Uni, des États-Unis, du Canada, ainsi que dans les écosystèmes Web3 fonctionnant à distance." },
+          { "type": "p", "text": "L'ensemble des informations légales relatives à notre entité figure sur la page Mentions légales.", "linkLabel": "Mentions légales", "linkHref": "/imprint" }
+        ]
+      },
+      {
+        "heading": "2. Données que nous collectons",
+        "blocks": [
+          { "type": "h3", "text": "2.1. Lorsque vous consultez ce site" },
+          { "type": "ul", "items": [
+            { "bold": "Données techniques :",                              "text": " adresse IP, type de navigateur et d'appareil, pages consultées, URL d'origine, durée de la session." },
+            { "bold": "Données fonctionnelles :",                         "text": " votre préférence de langue, conservée dans le stockage local de votre navigateur sans recours à un cookie." },
+            { "bold": "Aucun cookie de mesure d'audience ou de publicité", "text": " n'est déposé par défaut. Si nous activons un outil de mesure à l'avenir, votre consentement sera recueilli au préalable." }
+          ]},
+          { "type": "h3", "text": "2.2. Lorsque vous prenez rendez-vous avec nous" },
+          { "type": "ul", "items": [
+            { "bold": "Identité :",               "text": " nom, prénom, adresse électronique professionnelle, entreprise, fonction." },
+            { "bold": "Contexte de recrutement :", "text": " poste à pourvoir, fourchette de rémunération visée, calendrier de recrutement, contraintes géographiques." },
+            {                                      "text": "Ces informations sont collectées via Calendly et conservées dans notre CRM." }
+          ]},
+          { "type": "h3", "text": "2.3. Lorsque nous menons une mission de recrutement pour vous" },
+          { "type": "ul", "items": [
+            { "bold": "Données client :",    "text": " coordonnées de facturation, conditions contractuelles, fiche de poste, contact du responsable du recrutement." },
+            { "bold": "Données candidats :", "text": " CV, enregistrements de validation vidéo, notations d'entretien, références — traités sur la base du consentement explicite de chaque candidat." }
+          ]}
+        ]
+      },
+      {
+        "heading": "3. Pourquoi nous traitons ces données",
+        "blocks": [
+          { "type": "p", "text": "Les traitements reposent sur les fondements juridiques suivants (article 6 du RGPD) :" },
+          { "type": "ul", "items": [
+            { "bold": "Consentement (article 6.1.a) :",        "text": " envois marketing, dépôt de cookies de mesure si activés, validation vidéo des candidats." },
+            { "bold": "Exécution du contrat (article 6.1.b) :", "text": " fourniture de notre service de recrutement aux clients." },
+            { "bold": "Intérêt légitime (article 6.1.f) :",    "text": " journalisation de sécurité, prévention de la fraude, bon fonctionnement technique du site. Vous pouvez vous opposer à ce traitement (voir §6)." },
+            { "bold": "Obligation légale (article 6.1.c) :",   "text": " tenue de la comptabilité, déclarations fiscales et reporting de conformité." }
+          ]}
+        ]
+      },
+      {
+        "heading": "4. Conformité à l'EU AI Act",
+        "blocks": [
+          { "type": "p", "text": "Le recrutement figure parmi les usages à haut risque listés à l'Annexe III de l'EU AI Act. Lorsqu'une IA intervient dans l'évaluation des candidats, nous appliquons :" },
+          { "type": "ul", "items": [
+            { "bold": "Article 13, transparence :",             "text": " les candidats sont informés dès lors que leur évaluation fait appel à une notation ou à une validation vidéo par IA." },
+            { "bold": "Article 14, supervision humaine :",      "text": " aucune décision d'embauche ne repose sur la seule notation algorithmique ; un recruteur humain examine et valide chaque liste courte." },
+            { "bold": "Article 15, exactitude et robustesse :", "text": " les biais sont suivis avec une piste d'audit complète, conservée pendant toute la durée légale de rétention." }
+          ]}
+        ]
+      },
+      {
+        "heading": "5. Durées de conservation",
+        "blocks": [
+          { "type": "ul", "items": [
+            { "bold": "Mesure d'audience (si activée) :", "text": " 13 mois au maximum." },
+            { "bold": "Données CRM :",                    "text": " pendant toute la durée de la relation commerciale, puis 3 ans à des fins de relance. Suppression possible sur demande." },
+            { "bold": "Dossiers de candidats :",          "text": " 2 ans après la dernière interaction, sauf consentement exprès pour une conservation prolongée." },
+            { "bold": "Documents comptables :",           "text": " 10 ans, conformément à la législation lituanienne." }
+          ]}
+        ]
+      },
+      {
+        "heading": "6. Vos droits",
+        "blocks": [
+          { "type": "p", "text": "Vous disposez des droits suivants :" },
+          { "type": "ul", "items": [
+            { "bold": "Accéder",                                              "text": " aux données qui vous concernent (article 15)." },
+            { "bold": "Faire rectifier",                                      "text": " des données inexactes ou incomplètes (article 16)." },
+            { "bold": "Demander l'effacement",                                "text": " de vos données, le « droit à l'oubli » (article 17)." },
+            { "bold": "Limiter",                                              "text": " le traitement (article 18)." },
+            { "bold": "Recevoir",                                             "text": " vos données dans un format portable (article 20)." },
+            { "bold": "Vous opposer",                                         "text": " à un traitement fondé sur notre intérêt légitime (article 21)." },
+            { "bold": "Ne pas faire l'objet d'une décision entièrement automatisée", "text": " (article 22), d'où notre garantie de supervision humaine systématique." }
+          ]},
+          { "type": "p", "text": "Pour exercer l'un de ces droits, écrivez-nous à contact@talentai.bid ou via LinkedIn. Nous répondons dans un délai de 30 jours." }
+        ]
+      },
+      {
+        "heading": "7. Transferts internationaux de données",
+        "blocks": [
+          { "type": "p", "text": "Certains prestataires d'infrastructure (AWS Bedrock pour la couche modèle) peuvent traiter des données hors EEE. Ces transferts sont encadrés par les Clauses Contractuelles Types de la Commission européenne." }
+        ]
+      },
+      {
+        "heading": "8. Réclamations",
+        "blocks": [
+          { "type": "p", "text": "Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de l'autorité de contrôle compétente. Notre autorité chef de file est :" },
+          { "type": "p", "text": "Inspection nationale de protection des données de Lituanie (Valstybinė duomenų apsaugos inspekcija) — vdai.lrv.lt", "linkLabel": "vdai.lrv.lt", "linkHref": "https://vdai.lrv.lt/" },
+          { "type": "p", "text": "Les résidents européens peuvent également saisir leur autorité nationale (CNIL en France, BfDI en Allemagne, ICO au Royaume-Uni)." }
+        ]
+      },
+      {
+        "heading": "9. Modifications de la présente politique",
+        "blocks": [
+          { "type": "p", "text": "Cette politique évolue avec nos pratiques. La date figurant en tête de page indique la dernière révision. Toute modification substantielle est annoncée sur LinkedIn et notifiée par courrier électronique à nos clients référencés." }
+        ]
+      }
+    ]
+  },
+
+  "imprint": {
+    "title":           "Mentions légales · Informations juridiques",
+    "eyebrow":         "Mentions · Identité légale",
+    "updated":         "Dernière mise à jour : 11 mai 2026",
+    "crossLabel":      "Pour les modalités de traitement des données personnelles, voir notre",
+    "crossLink":       "Politique de confidentialité et droits RGPD",
+    "additionalLabel": "Informations complémentaires",
+    "tables": [
+      {
+        "heading": "Entité légale",
+        "rows": [
+          { "label": "Raison sociale",          "value": "Talent AI Labs UAB" },
+          { "label": "Nom commercial",          "value": "Talent AI Hunting" },
+          { "label": "Forme juridique",         "value": "UAB (Uždaroji akcinė bendrovė), équivalent lituanien de la société à responsabilité limitée" },
+          { "label": "Code société (registre)", "value": "307572423" },
+          { "label": "Numéro TVA",              "value": "LT307572423" },
+          { "label": "Siège social",            "value": "Vilnius, Lituanie. Le détail de l'immatriculation est disponible auprès du Centre des registres de Lituanie (registrucentras.lt) sous le code 307572423.", "linkLabel": "registrucentras.lt", "linkHref": "https://www.registrucentras.lt/" },
+          { "label": "Date d'immatriculation",  "value": "2025" }
+        ]
+      },
+      {
+        "heading": "Représentation",
+        "rows": [
+          { "label": "Président-directeur général", "value": "Hatem Azaiez" },
+          { "label": "Directeur des opérations",    "value": "Shiran Ben Abderrazak" }
+        ]
+      },
+      {
+        "heading": "Contact",
+        "rows": [
+          { "label": "Contact général",     "value": "contact@talentai.bid",                  "href": "mailto:contact@talentai.bid" },
+          { "label": "LinkedIn",            "value": "linkedin.com/company/hunting-talent-ai", "href": "https://www.linkedin.com/company/hunting-talent-ai/" },
+          { "label": "Prendre rendez-vous", "value": "Réserver un appel de 20 min →",          "href": "https://calendly.com/talent__ai/30min" }
+        ]
+      }
+    ],
+    "prose": [
+      { "heading": "Directeur de la publication",              "text": "La direction de la publication du présent site est assurée par le représentant légal de Talent AI Labs UAB." },
+      { "heading": "Hébergement",                              "text": "Ce site est hébergé sur une infrastructure située dans l'Union européenne et conforme aux exigences du RGPD. Les coordonnées précises du prestataire d'hébergement peuvent être obtenues sur simple demande écrite adressée à contact@talentai.bid.", "linkLabel": "contact@talentai.bid", "linkHref": "mailto:contact@talentai.bid" },
+      { "heading": "Propriété intellectuelle",                 "text": "L'ensemble du contenu de ce site (textes, mise en page, identité visuelle, illustrations et code source) demeure la propriété exclusive de Talent AI Labs UAB, sauf mention contraire. Toute reproduction, redistribution ou exploitation commerciale sans autorisation écrite préalable est strictement prohibée." },
+      { "heading": "Droit applicable et juridiction compétente", "text": "Le présent site, ainsi que l'ensemble des services qui y sont attachés, sont soumis au droit lituanien. À défaut de résolution amiable, tout litige relèvera de la compétence exclusive des tribunaux de Vilnius, en Lituanie, sous réserve des règles impératives de protection du consommateur applicables dans un autre État membre de l'Union européenne." },
+      { "heading": "Protection des données personnelles",      "text": "Les modalités de collecte et de traitement des données personnelles sont détaillées dans notre page Politique de confidentialité et droits RGPD.", "linkLabel": "Politique de confidentialité et droits RGPD", "linkHref": "/legal" }
+    ]
+  }
+}

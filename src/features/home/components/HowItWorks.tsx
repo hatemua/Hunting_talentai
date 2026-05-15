@@ -1,10 +1,6 @@
 ﻿import { Reveal }          from '@/components/ui/Reveal'
-import type { Dictionary } from '@/i18n/types'
-import { ReactNode }        from 'react'
-
-interface HowItWorksProps {
-  dict: Dictionary['howItWorks']
-}
+import { ReactNode }           from 'react'
+import type { HowItWorksProps } from '@/features/home/types'
 
 /* One icon per step — purely decorative, not translatable */
 const STEP_ICONS: ReactNode[] = [

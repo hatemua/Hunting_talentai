@@ -1,0 +1,155 @@
+{
+  "legal": {
+    "title":      "Privacy policy & GDPR rights",
+    "eyebrow":    "Legal · GDPR",
+    "updated":    "Last updated: 2026-05-11 · Effective immediately",
+    "crossLabel": "For legal information about our entity, see",
+    "crossLink":  "the Imprint page",
+    "sections": [
+      {
+        "heading": "1. Who we are",
+        "blocks": [
+          { "type": "p", "text": "Talent AI Labs UAB (\"Talent AI Hunting\", \"we\", \"us\") is a private limited company incorporated in Lithuania under company code 307572423, registered office in Vilnius, Lithuania. We operate as an AI-native recruitment agency placing candidates across the EU, UK, US, Canada and remote-friendly Web3 ecosystems." },
+          { "type": "p", "text": "The full legal information about our entity is available on our Imprint page.", "linkLabel": "Imprint page", "linkHref": "/imprint" }
+        ]
+      },
+      {
+        "heading": "2. Data we collect",
+        "blocks": [
+          { "type": "h3", "text": "2.1. When you visit this website" },
+          { "type": "ul", "items": [
+            { "bold": "Technical data:",                     "text": " IP address, browser type, device type, pages visited, referrer URL, session duration" },
+            { "bold": "Functional data:",                    "text": " language preference stored in your browser's local storage (no cookie)" },
+            { "bold": "No analytics or advertising cookies", "text": " are loaded by default. If/when we add analytics, we will request your consent first via a cookie banner." }
+          ]},
+          { "type": "h3", "text": "2.2. When you book an intake call" },
+          { "type": "ul", "items": [
+            { "bold": "Identity:",       "text": " first and last name, professional email, company name, role" },
+            { "bold": "Hiring context:", "text": " role you want to fill, target salary band, hiring timeline, location requirements" },
+            {                            "text": "This data is processed via our scheduling tool (Calendly) and stored in our CRM." }
+          ]},
+          { "type": "h3", "text": "2.3. When we run a recruitment search on your behalf" },
+          { "type": "ul", "items": [
+            { "bold": "Client data:",    "text": " billing details, contract terms, role specifications, hiring manager contact" },
+            { "bold": "Candidate data:", "text": " CVs, video validation footage, interview scores, references — processed under the specific consent obtained from each candidate" }
+          ]}
+        ]
+      },
+      {
+        "heading": "3. Why we process this data",
+        "blocks": [
+          { "type": "p", "text": "We rely on the following legal bases under Article 6 GDPR:" },
+          { "type": "ul", "items": [
+            { "bold": "Consent (Art. 6.1.a):",              "text": " for marketing emails, analytics cookies (if/when enabled), candidate video validation" },
+            { "bold": "Contract performance (Art. 6.1.b):", "text": " to deliver recruitment services to our clients" },
+            { "bold": "Legitimate interest (Art. 6.1.f):",  "text": " for security logs, fraud prevention, technical operation of the site. You have the right to object — see §6." },
+            { "bold": "Legal obligation (Art. 6.1.c):",     "text": " for accounting, tax records, and compliance reporting" }
+          ]}
+        ]
+      },
+      {
+        "heading": "4. EU AI Act compliance",
+        "blocks": [
+          { "type": "p", "text": "Recruitment is classified as a high-risk use case under Annex III of the EU AI Act. Where AI is used in the candidate evaluation pipeline, we apply:" },
+          { "type": "ul", "items": [
+            { "bold": "Article 13 — Transparency:",          "text": " candidates are informed when their evaluation involves AI scoring or AI video validation" },
+            { "bold": "Article 14 — Human oversight:",       "text": " no hire decision is taken on AI score alone; a human recruiter reviews and validates every shortlist" },
+            { "bold": "Article 15 — Accuracy & robustness:", "text": " bias monitoring with full audit trail, retained for the legal retention period" }
+          ]}
+        ]
+      },
+      {
+        "heading": "5. How long we keep your data",
+        "blocks": [
+          { "type": "ul", "items": [
+            { "bold": "Website analytics (when enabled):", "text": " 13 months max" },
+            { "bold": "CRM contact data:",                 "text": " as long as the commercial relationship is active, then 3 years for follow-up, deleted on request" },
+            { "bold": "Recruitment candidate files:",      "text": " 2 years after the last interaction unless the candidate consents to longer retention" },
+            { "bold": "Accounting records:",               "text": " 10 years (Lithuanian legal requirement)" }
+          ]}
+        ]
+      },
+      {
+        "heading": "6. Your rights under GDPR",
+        "blocks": [
+          { "type": "p", "text": "You have the right to:" },
+          { "type": "ul", "items": [
+            { "bold": "Access",         "text": " the data we hold about you (Art. 15)" },
+            { "bold": "Rectify",        "text": " inaccurate or incomplete data (Art. 16)" },
+            { "bold": "Erase",          "text": " your data (\"right to be forgotten\", Art. 17)" },
+            { "bold": "Restrict",       "text": " our processing (Art. 18)" },
+            { "bold": "Port",           "text": " your data to another provider (Art. 20)" },
+            { "bold": "Object",         "text": " to processing based on legitimate interest (Art. 21)" },
+            { "bold": "Not be subject", "text": " to a decision based solely on automated processing (Art. 22) — which is why we always have a human reviewer in the recruitment pipeline" }
+          ]},
+          { "type": "p", "text": "To exercise any of these rights, contact us at contact@talentai.bid or via LinkedIn. We respond within 30 days." }
+        ]
+      },
+      {
+        "heading": "7. International data transfers",
+        "blocks": [
+          { "type": "p", "text": "Some of our infrastructure providers (e.g. AWS Bedrock for our LLM layer) may process data outside the EEA. In those cases we rely on Standard Contractual Clauses (SCCs) approved by the European Commission and ensure equivalent protection." }
+        ]
+      },
+      {
+        "heading": "8. Complaints",
+        "blocks": [
+          { "type": "p", "text": "If you believe your rights are not being respected, you have the right to lodge a complaint with the supervisory authority. Our lead supervisory authority is:" },
+          { "type": "p", "text": "State Data Protection Inspectorate of Lithuania (Valstybinė duomenų apsaugos inspekcija) — vdai.lrv.lt", "linkLabel": "vdai.lrv.lt", "linkHref": "https://vdai.lrv.lt/" },
+          { "type": "p", "text": "EU residents may also complain to their national supervisory authority (e.g. CNIL in France, BfDI in Germany, ICO in the UK)." }
+        ]
+      },
+      {
+        "heading": "9. Changes to this policy",
+        "blocks": [
+          { "type": "p", "text": "We update this policy when our practices evolve. The \"last updated\" date at the top of this page reflects the latest version. Material changes are announced via LinkedIn and email to clients on file." }
+        ]
+      }
+    ]
+  },
+
+  "imprint": {
+    "title":           "Imprint · Legal Information",
+    "eyebrow":         "Imprint · Legal identity",
+    "updated":         "Last updated: 2026-05-11",
+    "crossLabel":      "For information on how we process personal data, see our",
+    "crossLink":       "Privacy policy & GDPR rights",
+    "additionalLabel": "Additional information",
+    "tables": [
+      {
+        "heading": "Legal entity",
+        "rows": [
+          { "label": "Legal name",              "value": "Talent AI Labs UAB" },
+          { "label": "Commercial name",         "value": "Talent AI Hunting" },
+          { "label": "Legal form",              "value": "UAB (Lithuanian Uždaroji akcinė bendrovė — Private Limited Company)" },
+          { "label": "Company code (registry)", "value": "307572423" },
+          { "label": "VAT identifier",          "value": "LT307572423" },
+          { "label": "Registered office",       "value": "Vilnius, Lithuania. Full registered details available on the Lithuanian Centre of Registers (registrucentras.lt) under company code 307572423.", "linkLabel": "registrucentras.lt", "linkHref": "https://www.registrucentras.lt/" },
+          { "label": "Date of incorporation",   "value": "2025" }
+        ]
+      },
+      {
+        "heading": "Representation",
+        "rows": [
+          { "label": "Chief Executive Officer", "value": "Hatem Azaiez" },
+          { "label": "Chief Operating Officer", "value": "Shiran Ben Abderrazak" }
+        ]
+      },
+      {
+        "heading": "Contact",
+        "rows": [
+          { "label": "General contact",     "value": "contact@talentai.bid",                        "href": "mailto:contact@talentai.bid" },
+          { "label": "LinkedIn",            "value": "linkedin.com/company/hunting-talent-ai",       "href": "https://www.linkedin.com/company/hunting-talent-ai/" },
+          { "label": "Book an intake call", "value": "Book a 20-min intake call →",                 "href": "https://calendly.com/talent__ai/30min" }
+        ]
+      }
+    ],
+    "prose": [
+      { "heading": "Publication",                      "text": "The publisher and editorial director of this website is the legal representative of Talent AI Labs UAB." },
+      { "heading": "Hosting",                          "text": "This website is hosted on EU-based infrastructure compliant with GDPR requirements. Hosting provider details can be obtained on written request at contact@talentai.bid.", "linkLabel": "contact@talentai.bid", "linkHref": "mailto:contact@talentai.bid" },
+      { "heading": "Intellectual property",            "text": "All content on this website (text, layout, logo, illustrations, code) is the exclusive property of Talent AI Labs UAB unless otherwise indicated. Reproduction, redistribution or commercial use without prior written authorisation is prohibited." },
+      { "heading": "Applicable law & jurisdiction",    "text": "This website and all services provided through it are governed by Lithuanian law. Any dispute that cannot be resolved amicably falls under the jurisdiction of the competent courts of Vilnius, Lithuania, except where mandatory consumer protection rules of another EU member state apply." },
+      { "heading": "Privacy & data protection",        "text": "For information on how we collect and process personal data, see our Privacy policy & GDPR rights page.", "linkLabel": "Privacy policy & GDPR rights", "linkHref": "/legal" }
+    ]
+  }
+}

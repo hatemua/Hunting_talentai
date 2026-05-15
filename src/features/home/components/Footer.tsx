@@ -3,12 +3,8 @@
 import Link            from 'next/link'
 import Image           from 'next/image'
 import { usePathname } from 'next/navigation'
-import { linkedinUrl, linkedinLabel, calendlyUrl } from '@/config/site'
-import type { Dictionary } from '@/i18n/types'
-
-interface FooterProps {
-  dict: Dictionary['footer']
-}
+import { calendlyUrl } from '@/config/site'
+import type { FooterProps } from '@/features/home/types'
 
 export function Footer({ dict }: FooterProps) {
   const pathname = usePathname()

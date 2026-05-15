@@ -1,11 +1,7 @@
 import { Button } from '@/components/ui/Button'
 import { Reveal }  from '@/components/ui/Reveal'
 import { contactEmailHref, calendlyUrl } from '@/config/site'
-import type { Dictionary } from '@/i18n/types'
-
-interface FinalCTAProps {
-  dict: Dictionary['cta']
-}
+import type { FinalCTAProps } from '@/features/home/types'
 
 export function FinalCTA({ dict }: FinalCTAProps) {
   return (

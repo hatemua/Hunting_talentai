@@ -1,7 +1,7 @@
 import type { ReactNode }  from 'react'
 import { Reveal }          from '@/components/ui/Reveal'
 import { CountUp }         from '@/components/ui/CountUp'
-import type { Dictionary } from '@/i18n/types'
+import type { ProblemProps } from '@/features/home/types'
 
 const ICONS: Record<string, ReactNode> = {
   clock: (
@@ -20,9 +20,6 @@ const ICONS: Record<string, ReactNode> = {
   ),
 }
 
-interface ProblemProps {
-  dict: Dictionary['problem']
-}
 
 export function Problem({ dict }: ProblemProps) {
   return (

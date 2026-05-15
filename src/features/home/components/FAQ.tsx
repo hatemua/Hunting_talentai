@@ -2,19 +2,7 @@
 
 import { useState }        from 'react'
 import { Reveal }          from '@/components/ui/Reveal'
-import type { Dictionary } from '@/i18n/types'
-
-interface FAQProps {
-  dict: Dictionary['faq']
-}
-
-interface FAQRowProps {
-  question:     string
-  answer:       string
-  index:        number
-  total:        number
-  defaultOpen?: boolean
-}
+import type { FAQProps, FAQRowProps } from '@/features/home/types'
 
 function FAQRow({ question, answer, index, total, defaultOpen = false }: FAQRowProps) {
   const [open, setOpen] = useState(defaultOpen)

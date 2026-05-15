@@ -5,14 +5,16 @@ import enCommon from '@/dictionaries/en/common.json'
 import frCommon from '@/dictionaries/fr/common.json'
 import enHome   from '@/features/home/dictionaries/en.json'
 import frHome   from '@/features/home/dictionaries/fr.json'
+import enLegal  from '@/features/legal/dictionaries/en.json'
+import frLegal  from '@/features/legal/dictionaries/fr.json'
 
 if (!i18n.isInitialized) {
   i18n
     .use(initReactI18next)
     .init({
       resources: {
-        en: { translation: { ...enCommon, ...enHome } },
-        fr: { translation: { ...frCommon, ...frHome } },
+        en: { translation: { ...enCommon, ...enHome, ...enLegal } },
+        fr: { translation: { ...frCommon, ...frHome, ...frLegal } },
       },
       lng:           'en',
       fallbackLng:   'en',

@@ -1,11 +1,7 @@
 ﻿import { Button }  from '@/components/ui/Button'
 import { Reveal }  from '@/components/ui/Reveal'
 import { CountUp } from '@/components/ui/CountUp'
-import type { Dictionary } from '@/i18n/types'
-
-interface HeroProps {
-  dict: Dictionary['hero']
-}
+import type { HeroProps } from '@/features/home/types'
 
 const TRUST_ITEMS = [
   'No retainer',

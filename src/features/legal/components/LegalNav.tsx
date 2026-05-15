@@ -4,7 +4,7 @@ import Link               from 'next/link'
 import Image              from 'next/image'
 import { useTranslation } from 'react-i18next'
 
-type Locale = 'en' | 'fr'
+import type { Locale } from '@/features/legal/types'
 
 const t = {
   en: { back: 'Back to home', home: 'Home', docs: 'Legal docs' },

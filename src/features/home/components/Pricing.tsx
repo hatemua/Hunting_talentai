@@ -1,10 +1,6 @@
 ﻿import { Button }          from '@/components/ui/Button'
 import { Reveal }          from '@/components/ui/Reveal'
-import type { Dictionary } from '@/i18n/types'
-
-interface PricingProps {
-  dict: Dictionary['pricing']
-}
+import type { PricingProps } from '@/features/home/types'
 
 function CheckItem({ text }: { text: string }) {
   return (

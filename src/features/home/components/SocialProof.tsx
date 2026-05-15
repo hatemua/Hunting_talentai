@@ -1,9 +1,5 @@
 ﻿import { Reveal }          from '@/components/ui/Reveal'
-import type { Dictionary } from '@/i18n/types'
-
-interface SocialProofProps {
-  dict: Dictionary['socialProof']
-}
+import type { SocialProofProps } from '@/features/home/types'
 
 function StarIcon() {
   return (

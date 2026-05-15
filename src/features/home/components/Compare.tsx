@@ -1,10 +1,6 @@
 ﻿import { Reveal }          from '@/components/ui/Reveal'
-import type { Dictionary } from '@/i18n/types'
 import { ReactNode }        from 'react'
-
-interface CompareProps {
-  dict: Dictionary['compare']
-}
+import type { CompareProps } from '@/features/home/types'
 
 /* ── Icons ── */
 const FEATURE_ICONS: ReactNode[] = [
